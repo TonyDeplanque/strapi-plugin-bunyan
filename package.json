@@ -1,0 +1,51 @@
+{
+  "name": "strapi-plugin-bunyan",
+  "version": "0.0.1",
+  "description": "Send Strapi error events with bunyan",
+  "strapi": {
+    "name": "Bunyan",
+    "icon": "plug",
+    "description": "bunyan.plugin.description"
+  },
+  "homepage": "https://github.com/TonyDeplanque/strapi-plugin-bunyan",
+  "bugs": {
+    "url": "https://github.com/TonyDeplanque/strapi-plugin-bunyan/issues"
+  },
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "dependencies": {
+    "bunyan": "1.8.15"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  },
+  "author": {
+    "name": "Tony Deplanque",
+    "email": "deplanque.tony@gmail.com",
+    "url": "https://github.com/TonyDeplanque"
+  },
+  "maintainers": [
+    {
+      "name": "Tony Deplanque",
+      "email": "deplanque.tony@gmail.com",
+      "url": "https://github.com/TonyDeplanque"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "strapi-plugin",
+    "strapi-logger",
+    "strapi-bunyan",
+    "strapi-permissions",
+    "logger",
+    "bunyan",
+    "log"
+  ],
+  "license": "MIT"
+}
