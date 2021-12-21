@@ -21,7 +21,7 @@ npm install strapi-plugin-bunyan
 
 ## ⚙ Configuration
 
-If you need change error file location or the app name you must add your configuration in `./config/plugins.js`
+If you need change error file location or the app name you must add your configuration in `./config/plugins.js`.
 
 | property       | type  | description                                                                                                                                                                              |
 | -------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -39,6 +39,21 @@ module.exports = ({ env }) => ({
         appName: 'goodProject',
         path: './error2.log',
     },
+  // ...
+});
+```
+
+If your log file path is inside your Strapi project, you need to add this lines in the config server file `./config/server.js`.Otherwise your server will restart each time the log file is changed.
+
+`./config/server.js`
+```js
+module.exports = ({ env }) => ({
+  // ...
+    admin: {
+        watchIgnoreFiles: [
+            "./error.log"
+        ]
+    }
   // ...
 });
 ```
