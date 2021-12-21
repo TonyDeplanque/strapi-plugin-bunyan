@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-bunyan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Send Strapi error events to a log file using bunyan",
   "strapi": {
     "name": "Bunyan",
