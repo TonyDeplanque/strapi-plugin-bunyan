@@ -9,7 +9,7 @@ Bunyan strapi plugin inspired by the official Strapi Bunyan plugin.
 
 ## ⏳ Installation
 
-To install this plugin, you need to add an NPM dependency to your Strapi application.
+To install this plugin, you need to add a NPM dependency to your Strapi application.
 
 ```sh
 # Using Yarn
@@ -21,7 +21,7 @@ npm install strapi-plugin-bunyan
 
 ## ⚙ Configuration
 
-If you need change error file location or the app name you must add your configuration in `./config/plugins.js`.
+If you need to change error file location or the app name you must add your configuration in `./config/plugins.js`.
 
 | property       | type  | description                                                                                                                                                                              |
 | -------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
